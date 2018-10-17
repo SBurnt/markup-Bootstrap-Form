@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document13/06/2018</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row header">
+        <div class="logo col-md-1">
+          <a href="index.html">
+            <img src="img/vk_logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="col-md-4 ">
+          <form>
+            <input type="text" name="search" placeholder="Поиск" class="rounded-circle">
+          </form>
+        </div>
+        <div class="swith-lang col-md-7">
+          <a href="#">Switch to English</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="content col-md-8">
+          <h1>ВКонтакте для мобильных устройств</h1>
+          <p>Установите официальное мобильное приложение ВКонтакте и оставайтесь<br> в курсе новостей Ваших друзей, где
+            бы Вы ни находились.</p>
+          <div class="img-mobile row">
+            <div class="for-android col-md-4">
+              <a href="https://play.google.com/store/apps/details?id=com.vkontakte.android" target="_blank">
+                <img src="img/android_ru.png" alt="VK для Android">
+              </a>
+            </div>
+            <div class="for-iphone col-md-4">
+              <a href="https://itunes.apple.com/ru/app/id564177498" target="_blank"><img src="img/ios_ru.png" alt="VK для iPhone"></a>
+            </div>
+            <div class="for-wp col-md-4">
+              <a href="https://www.microsoft.com/store/apps/9wzdncrfj1pt" target="_blank"><img src="img/wp_ru.png" alt="VK для WP"></a>
+            </div>
+          </div>
+        </div>
+        <div class="form-registration col-md-4">
+          <div class="block-index-login">
+            <form action="#">
+              <fieldset>
+                <legend>Введите данные для входа</legend>
+                <input type="text" name="phone-email" class="text-form" placeholder="Телефон или email">
+                <input type="password" name="password" class="text-form" placeholder="Пароль">
+                <label><input type="checkbox" name="save-pass">Запомнить пароль?</label>
+              </fieldset>
+              <input type="submit" name="log-in" class="btn log-in" value="Войти">
+              <a href="#">Забыли пароль?</a>
+            </form>
+          </div>
+          <div class="block-refistration-form">
+            <h1>Впервые ВКонтакте?</h1>
+            <form action="#">
+              <fieldset>
+                <legend>Моментальная регистрация</legend>
+                <input type="text" name="name" class="text-form" placeholder="Ваше имя">
+                <input type="text" name="last-name" class="text-form" placeholder="Ваша фамилия">
+                <p>
+                  <label><input type="radio" name="gender">Мужской</label>
+                  <label><input type="radio" name="gender">Женский</label>
+                </p>
+                <p>Дата рождения</p>
+                <p>
+                  <select name="day" required="Не выбран день рождения">
+                    <option value="" hidden disabled selected>День</option>
+                    <option value="01">1</option>
+                    <option value="02">2</option>
+                    <option value="03">4</option>
+                    <option value="04">5</option>
+                    <option value="05">6</option>
+                    <option value="06">7</option>
+                    <option value="07">8</option>
+                    <option value="08">9</option>
+                    <option value="09">10</option>
+                    <option value="10">11</option>
+                    <option value="11">12</option>
+                    <option value="12">13</option>
+                  </select>
+                  <select name="month" required="Не выбран месяц рождения">
+                    <option value="" hidden disabled selected>Месяц</option>
+                    <option value="january">января</option>
+                    <option value="february">февраля</option>
+                    <option value="march">марта</option>
+                    <option value="april">апреля</option>
+                    <option value="may">мая</option>
+                    <option value="june">июня</option>
+                    <option value="july">июля</option>
+                    <option value="august">августа</option>
+                    <option value="september">сентября</option>
+                    <option value="october">октября</option>
+                    <option value="november">ноября</option>
+                    <option value="december">декабря</option>
+                  </select>
+                  <select name="year" required="Не выбран год рождения">
+                    <option value="" hidden disabled selected>Год</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                  </select>
+                </p>
+              </fieldset>
+              <input type="submit" name="continue-registr" class="btn continue-registr" value="Продолжить регистрацию">
+              <button type="button" class="btn continue-social" btn-md active>Продолжить как Сергей</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+body {
+	font: 400 14px 'Philosopher', sans-serif;
+}
+
+header {
+	background: #5181b8;
+	height: 42px;
+}
+
+.logo img {
+	float: left;
+	height: 42px;
+}
+
+.rounded-circle {
+	background: #224b7a;
+	float: right;
+	margin-top: 7px;
+	padding-left: 25px;
+	height: 28px;
+	width: 230px;
+	color: #5181b8;
+	border: 0;
+	border-radius: 40px;
+}
+
+.rounded-circle:hover {
+	background-color: #fff;
+}
+
+.swith-lang a {
+	float: right;
+	font-weight: 700;
+	color: #fff;
+	height: 42px;
+	text-decoration: none;
+	line-height: 42px;
+	padding: 0 10px;
+}
+
+.swith-lang a:hover {
+	background-color: #224b7a;
+}
+
+main {
+	background: #edeef0;
+	min-height: 87px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.img-mobile {
+	position: relative;
+	padding-top: 30px;
+}
+
+h1 {
+	margin-bottom: 23px;
+	font-size: 22px;
+	color: #000;
+	text-align: center;
+}
+
+p {
+	color: #000;
+	text-align: center;
+	line-height: 2;
+}
+
+.for-android, .for-iphone, .for-wp {
+	padding: 0;
+}
+
+.for-android img {
+	position: absolute;
+	float: right;
+	margin-top: 15px;
+	margin-left: 100px;
+	z-index: 1;
+}
+
+.for-iphone img {
+	position: absolute;
+	display: block;
+	margin: auto;
+	z-index: 2;
+}
+
+.for-wp img {
+	position: absolute;
+	float: left;
+	margin-top: 15px;
+	margin-left: -100px;
+	z-index: 1;
+}
+
+.form-registration {
+	display: block;
+}
+
+.block-index-login {
+	background: #fff;
+	padding: 25px;
+}
+
+.block-index-login form {
+	display: block;
+	/* width: 270px; */
+}
+
+.block-index-login form a {
+	text-decoration: none;
+}
+
+input.text-form {
+	background: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 6px 12px 8px;
+	height: 35px;
+	border: 1px solid #d3d9de;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.btn {
+	height: 35px;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.log-in {
+	width: 100px;
+	background-color: #5181b8;
+	margin-right: 15px;
+}
+
+.block-refistration-form {
+	background: #fff;
+	margin-top: 30px;
+	padding: 25px;
+}
+
+.block-refistration-form form p {
+	font-weight: 700;
+	text-align: left;
+	line-height: 2;
+}
+
+.continue-registr {
+	width: 100%;
+	background-color: #5fb053;
+	margin-bottom: 20px;
+}
+
+.continue-registr:hover {
+	background-color: #67d456;
+}
+
+.continue-social {
+	width: 100%;
+	background-color: #5181b8;
+	margin-top: 0;
+}
+
+.log-in:hover, .continue-social:hover {
+	background-color: #72a0d4;
+}
+
+select {
+	width: 30%;
+}
+
+footer {
+	background: #edeef0;
+	height: 80px;
+}
+
+footer .container {
+	border-top: 1px solid #e4e8ed;
+}
+
+@media screen and (max-width: 767px) {
+	.img-mobile {
+		display: none;
+	}
+}
